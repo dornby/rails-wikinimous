@@ -1,0 +1,30 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+#submit-btn {
+  background-color: #F18F01;
+  color: white;
+}
+
+label {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2E4057;
+}
+
+.content-preview {
+  margin-left: 40px;
+  padding-left: 10px;
+  border-left: 1px solid lightgrey;
+  margin-bottom: 50px;
+}
+
+.title-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.title-container > p {
+  font-size: 24px;
+  margin-left: 10px;
+}

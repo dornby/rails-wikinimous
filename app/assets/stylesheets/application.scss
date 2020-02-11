@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap/scss/bootstrap";
+
+a {
+  text-decoration: none;
+  color: #048BA8
+}
+
+a:hover {
+  text-decoration: none;
+  color: #048BA8
+}
+
+body {
+  background-color: #F7FFF7
+}
+
+.navbar {
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+h1 {
+ color: #2E4057;
+ margin-bottom: 30px;
+ font-weight: bold;
+}
