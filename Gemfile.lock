@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    ace-rails-ap (4.2)
     actioncable (6.0.2.1)
       actionpack (= 6.0.2.1)
       nio4r (~> 2.0)
@@ -108,7 +107,7 @@ GEM
     public_suffix (4.0.3)
     puma (4.3.1)
       nio4r (~> 2.0)
-    rack (2.2.2)
+    rack (2.2.3.1)
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -206,7 +205,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ace-rails-ap
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
